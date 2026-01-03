@@ -42,7 +42,7 @@ nodecast-tv is a modern, web-based IPTV player featuring Live TV, EPG, Movies (V
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/nodecast-tv.git
+    git clone https://github.com/infusedchooch/ghl-tv.git
     cd nodecast-tv
     ```
 
