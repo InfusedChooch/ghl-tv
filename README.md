@@ -43,7 +43,7 @@ nodecast-tv is a modern, web-based IPTV player featuring Live TV, EPG, Movies (V
 1.  Clone the repository:
     ```bash
     git clone https://github.com/infusedchooch/ghl-tv.git
-    cd nodecast-tv
+    cd ghl-tv
     ```
 
 2.  Install dependencies:
@@ -67,8 +67,8 @@ You can run nodecast-tv easily using Docker.
     ```yaml
     services:
       nodecast-tv:
-        build: https://github.com/technomancer702/nodecast-tv.git#main
-        container_name: nodecast-tv
+        build: https://github.com/infusedchooch/ghl-tv.git#main
+        container_name: ghl-tv
         ports:
           - "3000:3000" # Host:Container
         volumes:
@@ -297,7 +297,7 @@ If you are using `acestream-docker-home` or similar tools, you **MUST** use the 
 ## Project Structure
 
 ```
-nodecast-tv/
+ghl-tv/
 ├── public/              # Frontend assets
 │   ├── css/             # Stylesheets
 │   ├── js/              # Client-side logic
